@@ -1,0 +1,63 @@
+</style>
+</head>
+<body>
+<header>
+  <h1>Coffee Delight</h1>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="intro" id="about">
+    <h2>Your Premium Coffee Destination</h2>
+    <p>Discover the finest coffee beans and handcrafted blends for a perfect coffee experience.</p>
+  </section>
+
+  <section class="products" id="products">
+    <article class="product-card">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=400&q=80" alt="Espresso Coffee Beans" class="product-image" />
+      <div class="product-info">
+        <h3>Espresso Coffee Beans</h3>
+        <p>$14.99 / 250g</p>
+      </div>
+    </article>
+    <article class="product-card">
+      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="Premium Ground Coffee" class="product-image" />
+      <div class="product-info">
+        <h3>Premium Ground Coffee</h3>
+        <p>$12.49 / 250g</p>
+      </div>
+    </article>
+    <article class="product-card">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Coffee Capsules" class="product-image" />
+      <div class="product-info">
+        <h3>Coffee Capsules</h3>
+        <p>$18.75 / 16 pcs</p>
+      </div>
+    </article>
+    <article class="product-card">
+      <img src="https://images.unsplash.com/photo-1590080877777-99fefbbd9b51?auto=format&fit=crop&w=400&q=80" alt="Organic Coffee Blend" class="product-image" />
+      <div class="product-info">
+        <h3>Organic Coffee Blend</h3>
+        <p>$16.50 / 250g</p>
+      </div>
+    </article>
+  </section>
+  
+  <section id="contact" style="text-align:center; margin-top:50px;">
+    <h2>Contact Us</h2>
+    <p>Email: info@coffeedelight.com</p>
+    <p>Phone: +1 (555) 123-4567</p>
+    <p>Follow us on social media for latest offers!</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2024 Coffee Delight. All Rights Reserved.
+</footer>
+</body>
+</html>
+

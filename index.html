@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Coffee Delight - Premium Coffee Products</title>
+<style>
+  /* Reset some default styling */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f1eb;
+    color: #4b3b2b;
+    line-height: 1.6;
+  }
+  header {
+    background: #6f4e37;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  }
+  header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  nav a {
+    color: #d6c1b1;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #f3c677;
+  }
+  main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 15px;
+  }
+  .intro {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .intro h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  .intro p {
+    font-size: 1.1rem;
+    color: #6b584a;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px;
+  }
+  .product-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(111,78,55,0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(111,78,55,0.25);
+  }
+  .product-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .product-info {
+    padding: 15px;
+  }
+  .product-info h3 {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  .product-info p {
+    color: #a87f5a;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  footer {
+    background: #6f4e37;
+    color: #d6c1b1;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+    nav a {
+      margin: 0 8px;
+      font-size: 1rem;
+    }
+  }
+
